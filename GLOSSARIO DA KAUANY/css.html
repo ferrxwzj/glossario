@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet">
+  <title>Glossário Técnico: HTML e CSS</title>
+</head>
+
+<body>
+
+  <header>
+    <section>
+      <h1>Glosário de CSS</h1>
+
+    </section>
+    </div>
+    <div class="menu">
+      <nav>
+        <ul>
+          <li><strong><a href="index.html">HOME</a></strong></li>
+          <li><strong><a href="html.html">HTML</a></strong></li>
+          <li><strong><a href="css.html">CSS</a></strong></li>
+          <li><strong><a href="tutorial.html">TUTORIAL</a></strong></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section>
+    </header>
+
+    <main>
+      <section>
+        <div class="cabeca">
+          <h2>Tags</h2>
+        </div>
+        <div class="item">
+          <strong>color</strong> – Define a cor do texto do elemento. Pode ser usada para destacar informações
+          importantes, combinar com o design ou melhorar a legibilidade. Aceita valores em nomes (red), hexadecimais
+          (#ff0000), RGB, RGBA, HSL e HSLA.
+          <code>color: red;</code>
+        </div>
+
+        <div class="item">
+          <strong>background-color</strong> – Define a cor de fundo do elemento. É muito usada para separar visualmente
+          seções, criar contraste ou aplicar destaque. Aceita os mesmos formatos de cor do color.
+          <code>background-color: #f0f0f0;</code>
+        </div>
+
+        <div class="item">
+          <strong>font-size</strong> – Controla o tamanho da fonte do texto. Pode ser definido em pixels (px), em (em),
+          porcentagem (%), rem ou até com palavras-chave como small, large etc.
+          <code>font-size: 16px;</code>
+        </div>
+
+        <div class="item">
+          <strong>margin</strong> – Define o espaço externo entre o elemento e outros ao seu redor. Pode ser aplicado de
+          forma global (margin: 10px;) ou individualmente para cada lado (margin-top, margin-right, etc.).
+          <code>margin: 10px;</code>
+        </div>
+
+        <div class="item">
+          <strong>padding</strong> – Define o espaço interno entre o conteúdo do elemento e suas bordas. Também pode ser
+          aplicado de forma geral ou específica para cada lado (padding-top, padding-left etc.).
+          <code>padding: 5px;</code>
+        </div>
+
+        <div class="item">
+          <strong>border</strong> – Define a borda de um elemento, controlando espessura, estilo e cor. Estilos comuns:
+          solid, dashed, dotted, double, entre outros.
+          <code>border: 1px solid black;</code>
+        </div>
+
+        <div class="item">
+          <strong>width</strong> – Define a largura do elemento. Aceita valores em px, %, em, rem, vw (viewport width) e
+          outras unidades.
+          <code>width: 200px;</code>
+        </div>
+
+        <div class="item">
+          <strong>height</strong> – Define a altura do elemento. Aceita os mesmos formatos de unidade do width.
+          <code>height: 100px;</code>
+        </div>
+
+        <div class="item">
+          <strong>display</strong> – Controla como o elemento é exibido na página, podendo ser bloco, linha ou layout
+          flexível para organizar os filhos.Controla como o elemento é renderizado. Valores comuns:
+
+          block – quebra a linha e ocupa toda a largura disponível.
+          inline – fica na mesma linha e só ocupa o espaço do conteúdo.
+          flex – cria um container flexível para organizar elementos.
+          grid – organiza usando o sistema de grades.
+          <code>display: flex;</code>
+        </div>
+
+        <div class="item">
+          <strong>position</strong> – Define o método de posicionamento do elemento:
+
+          static (padrão) – segue o fluxo normal.
+          relative – posicionado em relação à sua posição original.
+          absolute – posicionado em relação ao elemento pai com position diferente de static.
+          fixed – fixo na tela mesmo ao rolar a página.
+          sticky – alterna entre relative e fixed conforme o scroll.
+          <code>position: relative;</code>
+        </div>
+
+        <div class="item">
+          <strong>top, right, bottom, left</strong> – Ajustam o deslocamento do elemento em relação ao seu ponto de
+          referência (definido pelo position).
+          <code>top: 10px; left: 20px;</code>
+        </div>
+
+        <div class="item">
+          <strong>font-family</strong> – Define a família tipográfica usada no texto. É recomendado colocar fontes
+          alternativas como fallback, separadas por vírgula.
+          <code>font-family: Arial, sans-serif;</code>
+        </div>
+
+        <div class="item">
+          <strong>text-align</strong> – Alinha o texto horizontalmente dentro do elemento. Valores comuns: left, center,
+          right, justify.
+          <code>text-align: center;</code>
+        </div>
+
+        <div class="item">
+          <strong>float</strong> – Faz o elemento “flutuar” para a esquerda (left) ou direita (right), permitindo que
+          outros elementos ocupem o espaço ao lado. Hoje em dia, é menos usado, pois flex e grid são mais modernos.
+          <code>float: right;</code>
+        </div>
+
+        <div class="item">
+          <strong>z-index</strong> – Define a ordem de sobreposição dos elementos. Quanto maior o valor, mais “por cima”
+          o elemento ficará quando houver sobreposição. Funciona apenas com elementos posicionados (relative, absolute,
+          fixed ou sticky).
+          <code>z-index: 10;</code>
+        </div>
+    </main>
+
+    <footer>
+      Site desenvolvido por Kauany, com fins educativos. Todos os direitos reservados. © 2025
+    </footer>
+
+</body>
+
+</html>

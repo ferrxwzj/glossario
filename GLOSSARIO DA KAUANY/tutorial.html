@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tutoriais.css">
+    <link rel="shortcut icon" href="favico.ico" type="image/x-icon">
+    <title>Glossario de HTML & CSS</title>
+</head>
+<header>
+
+    <div class="cabeca">
+        <h1>Glossario</h1>
+    </div>
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><strong><a href="index.html">HOME</a></strong></li>
+                <li><strong><a href="html.html">HTML</a></strong></li>
+                <li><strong><a href="css.html">CSS</a></strong></li>
+                <li><strong><a href="tutorial.html">TUTORIAIS</a></strong></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main class="divisa">
+
+    <section>
+        <div class="cabeca">
+            <h2>Tutoriais</h2>
+            <div class="item">
+    <h2>Imagem com efeito de zoom ao passar o mouse</h2>
+    <img src="tutorial-7.png" alt="tutorial-7">
+    <p>O efeito de zoom na imagem é criado usando a propriedade CSS <strong>transform: scale()</strong>, que
+        aumenta ou diminui o
+        tamanho do elemento. Para aplicar o efeito apenas quando o mouse estiver sobre a imagem, usamos o
+        seletor <strong>:hover</strong>. Além disso, a propriedade transition é usada para suavizar a
+        animação,
+        fazendo com que o
+        zoom aconteça de forma gradual e não brusca.</p>
+    <br>
+    <h2>Tutorial</h2>
+    <p>Para criar um efeito de zoom em uma imagem ao passar o mouse, usamos a propriedade CSS
+        <strong>transform:
+            scale()</strong>
+        para aumentar o tamanho da imagem. Aplicamos o efeito apenas quando o mouse está sobre a imagem
+        usando o
+        seletor <strong>:hover</strong>. Para que o zoom aconteça de forma suave, adicionamos a propriedade
+        transition, que
+        controla a duração e o estilo da animação.</p>
+</div>
+
+<div class="item">
+    <h2>Layout com 3 colunas usando Flexbox (CSS)</h2>
+    <img src="tutorial-6.png" alt="tutorial-6">
+    <p>O Flexbox organiza elementos em linha. Para um layout com 3 colunas, usamos display: flex no
+        container e
+        flex: 1 em cada coluna para que tenham tamanho igual e se ajustem ao espaço disponível.</p>
+    <br>
+    <h2>Tutorial</h2>
+    <p>Para criar um layout com três colunas usando Flexbox, primeiro crie um container no HTML que envolva
+        três
+        elementos filhos — cada um será uma coluna. No CSS, defina esse container com display: flex, o que
+        faz
+        com que os elementos fiquem lado a lado em uma linha. Depois, aplique flex: 1 para cada coluna para
+        que
+        todas tenham o mesmo tamanho e se ajustem proporcionalmente ao espaço disponível. Você pode
+        adicionar
+        espaçamento entre as colunas usando a propriedade gap. Assim, o layout fica flexível, responsivo e
+        fácil
+        de organizar.</p>
+</div>
+
+<div class="item">
+    <h2>Fixar o rodapé no fim da página (HTML + CSS)</h2>
+    <img src="tutorial-2.png" alt="tutorial-2">
+    <p>Para fixar o rodapé no fim da página, usamos o CSS Flexbox definindo o body como flex container em
+        coluna
+        e fazendo o conteúdo principal crescer com flex: 1. Isso mantém o rodapé sempre no final da tela,
+        mesmo
+        com pouco conteúdo. É um jeito simples e eficaz de garantir que o rodapé não “suba” na página.</p>
+    <br>
+    <h2>Tutorial</h2>
+    <p>Ao transformar o body em um contêiner flexível com <strong>display: flex e flex-direction:
+            column</strong>, os elementos
+        filhos (conteúdo e rodapé) ficam organizados em uma coluna vertical. Aplicando flex: 1 no conteúdo
+        principal, ele cresce para ocupar todo o espaço disponível entre o topo e o rodapé. Isso faz com que
+        o
+        rodapé fique sempre “empurrado” para a parte inferior da tela, mesmo que o conteúdo seja pequeno.
+    </p>
+</div>
+
+<div class="item">
+    <h2>Texto com gradiente de cor (CSS)</h2>
+    <img src="tutorial-1.png" alt="tutorial-1">
+    <p>O texto com gradiente de cor é um efeito visual criado com CSS que aplica um degradê no fundo e usa o
+        próprio texto como uma "máscara" para mostrar o gradiente dentro das letras. É bonito, moderno e
+        funciona bem para títulos e destaques em sites!
+    </p>
+    <br>
+    <h2>Tutorial</h2>
+    <p>
+        Para criar um texto com gradiente no CSS, usamos um fundo colorido com linear-gradient e aplicamos
+        <strong>-webkit-background-clip: text</strong> para recortar esse fundo no formato das letras. Em
+        seguida, usamos
+        <strong>-webkit-text-fill-color: transparent</strong> para deixar o texto transparente e mostrar
+        apenas
+        o gradiente. Esse
+        efeito funciona muito bem em títulos e pode ser animado para ficar ainda mais moderno — tudo usando
+        apenas HTML e CSS.
+    </p>
+</div>
+
+<div class="item">
+    <h2>Colocar ícones com HTML usando o site</h2>
+    <img src="tutorial-4.png" alt="tutorial-4">
+    <p>O Font Awesome é uma biblioteca que permite usar ícones no site sem imagens. Basta adicionar um link
+        no
+        HTML para carregar a biblioteca e inserir tags com classes específicas para mostrar os ícones. Eles
+        funcionam como caracteres especiais e podem ser estilizados com CSS.</p>
+    <br>
+    <h2>Tutorial</h2>
+    <p>Para usar ícones do Font Awesome, adicione um link no
+        <strong>&lt;head&gt;</strong> do HTML para carregar a biblioteca. Depois, insira a tag
+        <strong>&lt;i&gt;</strong> com
+        classes que indicam o ícone
+        desejado. Você pode personalizar os ícones com CSS para mudar cor, tamanho e estilo.
+    </p>
+</div>
+
+<div class="item">
+    <h2>Centralizar tudo no meio da tela (CSS)</h2>
+    <img src="tutorial-3.png" alt="tutorial-3">
+    <p>Para centralizar um elemento no meio da tela com CSS, usamos Flexbox definindo display: flex no
+        container. Depois aplicamos <strong>justify-content: center</strong> para centralizar
+        horizontalmente e
+        <strong>
+            align-items:
+            center
+        </strong> para verticalmente. Com <strong>height: 100vh</strong>, o container ocupa toda a altura da
+        tela, garantindo que o
+        conteúdo fique exatamente no centro.
+    </p>
+    <br>
+    <h2>Tutorial</h2>
+    <p>Para centralizar um elemento no meio da tela, usamos o CSS Flexbox. Primeiro, definimos o container
+        com
+        <strong>display: flex</strong>, que ativa o modo flexível. Depois, aplicamos
+        <strong>justify-content:
+            center</strong> para alinhar o
+        conteúdo no centro horizontalmente e align-items: center para alinhar no centro verticalmente.
+        Também
+        definimos a altura do container como <strong>100vh</strong>, que é <strong>100%</strong> da altura
+        da
+        tela, garantindo que o conteúdo
+        fique exatamente no meio, independentemente do tamanho da tela ou do conteúdo.
+    </p>
+</div>
+
+<div class="item">
+    <h2>Imagem responsiva que se adapta ao tamanho da tela (CSS)</h2>
+    <img src="tutorial-5.png" alt="tutorial-5">
+    <p>Para isso, usamos no CSS as propriedades <strong>max-width: 100%</strong> e <strong>height:
+            auto</strong>. A propriedade <strong>max-width: 100%</strong>
+        garante que a largura da imagem nunca ultrapasse o tamanho do seu contêiner, evitando que ela
+        “estoure”
+        o layout. Já <strong>height: auto</strong> mantém a proporção da imagem, para que ela não fique
+        deformada quando a
+        largura muda.</p>
+    <br>
+    <h2>Tutorial</h2>
+    <p>Para criar uma imagem responsiva, basta adicionar uma classe à sua imagem no HTML e usar CSS para
+        limitar
+        sua largura máxima a <strong>100% </strong>do contêiner onde ela está. Isso evita que a imagem
+        ultrapasse o espaço
+        disponível. Além disso, definimos a altura como automática para manter a proporção da imagem e
+        evitar
+        distorções. Dessa forma, a imagem se ajusta ao tamanho da tela ou do elemento pai, ficando sempre
+        proporcional e sem “estourar” o layout.
+    </p>
+</div>
+
+<div class="item">
+    <h2>Navegação fixa no topo (HTML + CSS)</h2>
+    <img src="tutorial-8.png" alt="tutorial-8">
+    <p>A navegação fixa no topo usa position: fixed para manter o menu sempre visível no topo da página,
+        mesmo
+        ao rolar o conteúdo. Geralmente, definimos <strong>top: 0</strong>, <strong>width: 100%</strong> e
+        <strong>z-index</strong> para garantir que fique acima
+        dos outros elementos.
+    </p>
+    <br>
+    <h2>Tutorial</h2>
+    <p>Para criar uma navegação fixa no topo, você deve primeiro estruturar o menu dentro da tag
+        <nav> no seu HTML. Depois, no CSS, aplique position: fixed para fixar o menu na tela, defina
+        <strong>top:
+            0</strong> para
+        posicioná-lo no topo e <strong>width: 100%</strong> para que ocupe toda a largura da página. Também
+        é
+        importante usar
+        <strong>z-index</strong> para garantir que o menu fique acima dos outros elementos. </p>
+</div>
+<div class="item">
+    <h2>Card simples com sombra e borda arredondada</h2>
+    <img src="tutorial-card-1.png" alt="tutorial-card-1">
+    <br>
+    <img src="tutorial-card-2.png" alt="tutorial-card-2">
+    <br>
+    <img src="tutorial-card-3.png" alt="tutorial-card-3">
+    <br>
+    <img src="tutorial-card-4.png" alt="tutorial-card-4">
+    <p>Um card é uma caixa visual usada para agrupar informações relacionadas, como texto, imagens e botões,
+        em
+        um formato organizado e atraente. Ele funciona como um bloco que destaca conteúdo específico na
+        página,
+        facilitando a leitura e a interação do usuário. </p>
+    <br>
+    <h2>Tutorial</h2>
+    <p>Crie um card usando uma
+    <div> com título, texto e imagem dentro. No CSS, adicione borda, sombra, padding e cantos arredondados
+        para
+        dar estilo. Ajuste cores e layout para deixar o card visualmente atraente e fácil de ler.</p>
+</div>
+
+    </section>
+
+</main>
+
+<body>
+</body>
+<footer>
+    <p>Site desenvolvido por Antônio Kaue, com fins educativos.
+        Todos os direitos reservados.</p>
+</footer>
+
+</html>
