@@ -1,0 +1,135 @@
+* {
+      box-sizing: border-box;
+    }
+
+
+.lora-uniquifier {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+    body {
+  
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: rgb(97, 65, 4);
+    }
+
+    header {
+      background: linear-gradient(to right, rgb(97, 65, 4), rgb(153, 117, 49));
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+h1 {
+    font-size: 40px;
+}
+
+    header h2 {
+      margin-bottom: 10px;
+      font-size: 2rem;
+    }
+
+    header p {
+      max-width: 800px;
+      margin: 10px auto;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    
+
+.menu li {
+    list-style: none;
+    display: inline;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu a {
+    color: #f9f9f9;
+    text-decoration: none;
+    transition: 0.2s;
+
+}
+
+.menu a:hover {
+    color: #ffe4c4;
+    font-weight: bold;
+}
+
+    main {
+      padding: 40px 20px;
+      max-width: 960px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      color: rgb(97, 65, 4);
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+      margin-top: 60px;
+    }
+
+    .item {
+      background-color: #fff;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 6px solid rgb(97, 65, 4);
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgb(97, 65, 4);
+      transition: transform 0.2s ease;
+    }
+
+    .item:hover {
+      transform: scale(1.02);
+    }
+
+    .item strong {
+      font-size: 1.1rem;
+      color: rgb(97, 65, 4);
+    }
+
+    .item code {
+      display: block;
+      background-color: #f0f0f0;
+      padding: 12px;
+      margin-top: 10px;
+      font-family: monospace;
+      font-size: 0.95rem;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+
+    footer {
+     background: linear-gradient(to right, rgb(97, 65, 4), rgb(153, 117, 49));
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      margin-top: 60px;
+    }
+
+    @media (max-width: 600px) {
+      header h2 {
+        font-size: 1.5rem;
+      }
+
+      main {
+        padding: 20px 10px;
+      }
+
+      .item {
+        padding: 15px;
+      }
+    }
